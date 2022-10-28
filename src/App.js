@@ -1,11 +1,13 @@
 import Header from "./components/Header";
 import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "./components/styles/Globalstyled";
+import { GlobalStyles } from "./components/styles/Global.styled";
+import Cards from "./components/Cards";
+import Footer from "./components/Footer";
 
-const theme = {
+const style = {
   colors: {
     header: "#fff",
-    body: "#eee",
+    body: "#fff",
     footer: "#8A1C4A",
   },
   margins: {},
@@ -14,9 +16,11 @@ const theme = {
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={style}>
       <GlobalStyles />
       <Header />
+      <Cards />
+      <Footer />
     </ThemeProvider>
   );
 };

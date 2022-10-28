@@ -1,20 +1,20 @@
 import Button from "./styles/Button.styled";
-import Flex from "./styles/Flex";
-import HeaderStyled, { Div, Image, Logo, Nav } from "./styles/Headerstyled";
+import Flex from "./styles/Flex.styled";
+import StyledHeader, { Logo, Nav, Image } from "./styles/Header.styled";
 
-<Button>Apply Courses</Button>;
 const Header = () => {
   return (
-    <HeaderStyled>
+    <StyledHeader>
       <Nav>
-        <Logo src="./images/logo.png" />
+        <Logo src="./images/logo.png"></Logo>
         <div>
-          <Button color="darkred">Apply Courses</Button>
-          <Button bg="darkred">Apply Courses</Button>
+          <Button color="#A62440">Apply Courses</Button>
+          <Button bg="#A62440">Talk to Adviser</Button>
         </div>
       </Nav>
+
       <Flex>
-        <Div>
+        <div>
           <h1>The IT Career of Your Dreams Starts Here!</h1>
           <p>
             Clarusway is a leading international software Bootcamp. Join a micro
@@ -22,10 +22,10 @@ const Header = () => {
             highly-skilled instructor.
           </p>
           <Button bg="#A62440">Start Your New Carier</Button>
-        </Div>
+        </div>
         <Image src="./images/hero.jpg"></Image>
       </Flex>
-    </HeaderStyled>
+    </StyledHeader>
   );
 };
 
