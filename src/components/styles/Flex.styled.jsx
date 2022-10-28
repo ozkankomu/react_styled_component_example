@@ -5,6 +5,7 @@ const Flex = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: ${({ id }) => (id % 2 ? "row" : "row-reverse")};
   gap: 2rem;
 
   @media (max-width: ${({ theme }) => theme.responsive}) {

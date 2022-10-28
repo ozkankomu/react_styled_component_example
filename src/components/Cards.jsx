@@ -11,9 +11,9 @@ const Cards = () => {
         const { id, title, body, image } = item;
         return (
           <Container key={id}>
-            <Flex>
+            <Flex id={id}>
               <div>
-                <Image src={`./images/${item.image}`} alt="image" />
+                <Image src={`./images/${image}`} alt="image" />
               </div>
               <div>
                 <div>
