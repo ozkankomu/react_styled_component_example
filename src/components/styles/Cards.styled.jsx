@@ -13,7 +13,7 @@ export const Card = styled.div`
   align-items: center;
   width: 200px;
   font-size: 2rem;
-  color: darkblue;
+  color: darkred;
 `;
 
 export const Container = styled.div`

@@ -27,6 +27,7 @@ export const Nav = styled.nav`
 export const Image = styled.img`
   width: 500px;
   padding: 2rem;
+  border-radius: 2rem;
   @media (max-width: ${({ theme }) => theme.responsive}) {
     margin: 2rem 0;
   }
