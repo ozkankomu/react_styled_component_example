@@ -3,8 +3,6 @@
 </p>
 
 
-
-
 Recipe App
 ## Table of contents
 
@@ -22,12 +20,12 @@ Recipe App
 Project aims to create a Recipe App  with React.JS/Styled-Components.In this project, I tried to use almost all styled-Components features with the intention of teaching each other..
 
 
+
 ## Project Skeleton
 
-```
 Recipe App (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md       
 SOLUTION
 ├── public
 │     └── index.html
@@ -53,9 +51,7 @@ SOLUTION
 │    └── index.css
 ├── package.json
 └── yarn.lock
-```
 
-```
 
 ## Screenshot
 <p align="left">
@@ -82,10 +78,6 @@ SOLUTION
 
 - [W3 Schoold](https://www.w3schools.com/) - This helped me for basics of website paradigm. I really liked this pattern and will use it going forward.
 - [MDN](https://developer.mozilla.org/en-US/) - This is an amazing document which helped me finally understand deep sides of web development. I'd recommend it to anyone still learning these concepts.
-
-
-
-
 
 
 ## Author
